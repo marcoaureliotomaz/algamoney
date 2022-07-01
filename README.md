@@ -1,6 +1,5 @@
-# algamoney
-
-## Projeto de estudo onde criamos uma ferramenta para controle de receitas e despesas.
+# Projeto de estudo 
+## Ferramenta para controle de receitas e despesas.
 
 ### Tecnologias utilizadas:
 + Java Spring Boot -  API Rest
