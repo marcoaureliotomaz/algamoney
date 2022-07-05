@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -25,7 +27,8 @@ public class Pessoa {
 	private Endereco endereco;
 	
 	@NotNull
-	private String ativo;
+	@Max(1)
+	private Integer ativo;
 
 	
 	public Long getCodigo() {
@@ -52,11 +55,11 @@ public class Pessoa {
 		this.endereco = endereco;
 	}
 
-	public String getAtivo() {
+	public Integer getAtivo() {
 		return ativo;
 	}
 
-	public void setAtivo(String ativo) {
+	public void setAtivo(Integer ativo) {
 		this.ativo = ativo;
 	}
 
