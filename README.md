@@ -4,8 +4,9 @@
 ### Tecnologias utilizadas:
 + Java Spring Boot -  API Rest
     - Validação de atributos desconhecidos na requisições 
-    - Tratamento perosnalizado de exceptions
+    - Tratamento personalizado de exceptions
     - Validação de  valores inválidos utilizando Bean Validation
+    - JPA
 * Angular - Front-End
 * MySQL - Banco de Dados
 * Flyway - Scripts de Migração Incremental
